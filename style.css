@@ -19,7 +19,7 @@
   .faq_body{
     width: clamp(350px, 75%, 600px);
     height: fit-content;
-    margin-top: 100px;
+    margin-top: 150px;
     background-color: #fff;
     border-radius: 20px;
     padding: 35px;
@@ -30,8 +30,11 @@
     gap: 10px;
   }
   .faq_header h1{
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 700;
+  }
+  .faq {
+    margin-bottom: 10px;
   }
   .faq button{
     cursor: pointer;
