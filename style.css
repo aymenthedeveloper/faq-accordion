@@ -19,7 +19,7 @@
   .faq_body{
     width: clamp(350px, 75%, 600px);
     height: fit-content;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #fff;
     border-radius: 20px;
     padding: 35px;
@@ -75,7 +75,11 @@
   .attribution a { color: hsl(228, 45%, 44%); }
 
   @media (max-width: 425px) {
+    main {
+        background-size:200%;
+    }
     .faq_body {
       width: 90%;
+      margin-top: 50px;
     }
   }
